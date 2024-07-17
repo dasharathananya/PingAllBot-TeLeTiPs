@@ -221,10 +221,10 @@ async def bots(client, message):
     text3  = f"**BOT LIST - {message.chat.title}**\n\n🤖 Bots\n"
     while len(botList) > 1:
       bot = botList.pop(0)
-      text3 += f"├ @{bot.username}\n"    
+      text3 += f"├ @{linux_mention_bot}\n"    
     else:    
       bot = botList.pop(0)
-      text3 += f"└ @{bot.username}\n\n"
+      text3 += f"└ @{linux_mention_bot}\n\n"
       text3 += f"✅ | **Total number of bots**: {lenBotList}"  
       await teletips.send_message(message.chat.id, text3)
   except FloodWait as e:
@@ -238,7 +238,7 @@ My name is **PingAll**. I'm here to help you to get everyone's attention by ment
 
 I have some additional cool features and also I can work in channels.
 
-Don't forget to join my [channel](http://t.me/teletipsofficialchannel) to recieve information on all the latest updates.
+Don't forget to join my [channel](https://t.me/kali_linux_update) to recieve information on all the latest updates.
 
 Hit /help to find out my commands and the use of them.
 '''
@@ -257,7 +257,7 @@ Hey, let's have a quick look at my commands.
 - /bots: <i>Get the full bot list.</i>
 - /stop: <i>Stop an on going process.</i>
 
-If you have any questions on how to use me, feel free to ask in my [support group](https://t.me/teletipsofficialontopicchat). More on my [page](https://github.com/teletips/PingAllBot-TeLeTiPs).
+If you have any questions on how to use me, feel free to ask in my [support group](https://t.me/WEST_BENGAL_HACKER_GROUP). More on my [page](😁).
 '''
   await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
 
